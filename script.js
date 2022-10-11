@@ -1,10 +1,4 @@
-const container = document.createElement("div");
-container.classList.add("container");
-
-const span = document.createElement("span");
-
-container.appendChild(span);
-document.body.appendChild(container);
+const clock = document.getElementById("clock");
 
 function getTime(date) {
   return {
@@ -21,5 +15,5 @@ setInterval(() => {
     .toString()
     .padStart(2, "0")} : ${second.toString().padStart(2, "0")}`;
 
-  span.innerText = time;
+  clock.innerText = time;
 }, 1000);
