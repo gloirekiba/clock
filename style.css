@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
 
-*,
-*::before,
-*::after {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,7 +23,7 @@ body {
   text-align: center;
 }
 
-span {
+.clock {
   font-size: 6vh;
   font-weight: 700;
 }
